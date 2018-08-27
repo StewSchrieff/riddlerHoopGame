@@ -13,7 +13,7 @@ For this simulation, this is deemed allowable.
 - Another rule that doesn't translate well - when is the game over? Of course, the game is over when one team reaches the 'base' 
 hoop of the other team. However, this is also not so clear. Must you win a game of Rock Paper Scissors in the last hoop? 
 Or is the last hoop good enough to win? 
-  - This simulation regards arriving in the last hoop as winning the game. This is 
+  - This simulation regards arriving in the last hoop as winning the game. 
   - This is made easier by also assuming that winning a game of rock paper scissors allows you to progress.
 
 
@@ -45,6 +45,17 @@ There is a defined minimum number of steps that each game can take - where one t
 There is no maximum number of steps that each game can take. It is possible that a game could take infinitely many steps to resolve.
 This causes the game to be right skewed, which drags the mean out to be higher than the median. Could be worth thinking about using the median
 if you are betting on a game taking exactly 30 minutes. 
+
+## Loose Ends
+
+- If you don't have time to run the data, you can read in the mean/median datasets from [df_mean.csv](df_mean.csv) and [df_median.csv](df_median.csv).
+These contain fairly accurate data. 
+
+- [rockPaperScissors.py](rockPaperScissors.py) contains a lot of extraneous code to just running a simulation. 
+Feel free to comment-nuke as needed. 
+
+- Feel free to contact me on [twitter](https://twitter.com/Schrewart) with any suggestions or other thoughts. 
+
 ## Built With
 - [seaborn](https://seaborn.pydata.org/)
 - [pandas](https://pandas.pydata.org/)
