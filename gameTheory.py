@@ -15,6 +15,7 @@ def get_A_score_by_pos(playerApick):
     playerCscore = 0
 
 
+
     stage = range(1,11)
     # for link in stage:
     #     print(link)
