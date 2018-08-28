@@ -36,7 +36,7 @@ Of note - as you increase in number of hoops, the variability of the game increa
 less accurate as hoops increase. 
 
 This is illustrated by plotting the number of hoops vs the number of steps required to resolve the game.
-![alt text](https://github.com/StewSchrieff/riddlerHoopGame/blob/master/justMean_steps.png "Increasing")
+![alt text](https://github.com/StewSchrieff/riddlerHoopGame/blob/master/onlyMean.png "Increasing")
 
 Also of note - the length of time required to resolve a game is not a linear function of the number of hoops. Rather, it is a 3rd degree function.
 
