@@ -35,6 +35,9 @@ With the assumptions that my version of rock-paper-scissors-hop suppose, the ave
 Of note - as you increase in number of hoops, the variability of the game increases. This causes the simulation to become 
 less accurate as hoops increase. 
 
+This is illustrated by plotting the number of hoops vs the number of steps required to resolve the game.
+![alt text](https://github.com/StewSchrieff/riddlerHoopGame/blob/master/justMean_steps.png "Increasing")
+
 Also of note - the length of time required to resolve a game is not a linear function of the number of hoops. Rather, it is a 3rd degree function.
 
 This is highlighted by the following graph.
